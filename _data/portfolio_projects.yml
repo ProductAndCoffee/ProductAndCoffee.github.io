@@ -27,7 +27,7 @@
     technical: FastAPI gateway, FAISS vector cache, SQLite metadata, Next.js dashboard, and Docker Compose.
     ai: Demonstrates AI infrastructure patterns for semantic reuse, routing policy, and cost observability.
 
-- id: Gistify
+- id: gistify
   title: Gistify
   status: featured
   rank: 20
@@ -48,7 +48,7 @@
     technical: Browser extension architecture, content scripts, background workers, integration with LLM APIs.
     ai: Demonstrates integration of AI summarization directly into the user's reading flow with privacy controls.
 
-- id: PocketRAG-2.0
+- id: pocketrag-2.0
   title: PocketRAG 2.0
   status: featured
   rank: 30
