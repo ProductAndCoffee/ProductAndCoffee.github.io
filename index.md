@@ -8,7 +8,12 @@ portfolio: true
 
 <div class="portfolio-hero">
   <div class="portfolio-breadcrumb">Home / Work</div>
-  <h1 class="portfolio-title">Work</h1>
+  <h1 class="portfolio-title">Venkat Iyappan</h1>
+  <p class="portfolio-subtext" style="color: var(--portfolio-text-muted); font-size: 1.1rem; margin-top: -8px; margin-bottom: 16px;">productandcoffee.github.io</p>
+  <div class="portfolio-hero-links" style="display: flex; gap: 16px; margin-bottom: 24px;">
+    <a href="https://linkedin.com/in/productandcoffee" target="_blank" style="color: var(--portfolio-text-primary); font-family: var(--font-nav); text-decoration: underline; text-underline-offset: 4px; font-weight: 500;">LinkedIn</a>
+    <a href="https://github.com/ProductAndCoffee" target="_blank" style="color: var(--portfolio-text-primary); font-family: var(--font-nav); text-decoration: underline; text-underline-offset: 4px; font-weight: 500;">GitHub</a>
+  </div>
   <p class="portfolio-lede">
     Product leader building AI-accelerated products from strategy to shipped software. I combine product strategy, design judgment, and hands-on technical execution to turn ambiguous ideas into tested, high-quality products.
   </p>
