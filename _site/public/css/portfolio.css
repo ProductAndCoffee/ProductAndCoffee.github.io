@@ -25,9 +25,9 @@ body.portfolio-page {
 }
 
 .portfolio-container {
-  max-width: 1248px;
+  max-width: 800px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 24px;
 }
 
 .portfolio-header {
@@ -77,11 +77,10 @@ body.portfolio-page {
 
 .portfolio-title {
   font-family: var(--font-heading);
-  font-size: 74px;
+  font-size: 3rem;
   font-weight: 700;
   margin: 0 0 16px 0;
   color: var(--portfolio-text-primary);
-  line-height: 1.1;
 }
 
 .portfolio-lede {
@@ -97,29 +96,9 @@ body.portfolio-page {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--portfolio-text-muted);
-  margin: 48px 0 32px;
+  margin: 48px 0 24px;
   border-bottom: 1px solid var(--portfolio-border);
   padding-bottom: 8px;
-}
-
-/* Grid Layout */
-.portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 32px;
-  margin-bottom: 64px;
-}
-
-.portfolio-card.variant-featured {
-  grid-column: span 6;
-  display: flex;
-  flex-direction: column;
-}
-
-.portfolio-card.variant-supporting {
-  grid-column: span 4;
-  display: flex;
-  flex-direction: column;
 }
 
 /* Card */
@@ -128,6 +107,7 @@ body.portfolio-page {
   border: 1px solid var(--portfolio-border);
   border-radius: 8px;
   padding: 32px;
+  margin-bottom: 32px;
 }
 
 .portfolio-card.variant-featured {
@@ -211,8 +191,6 @@ body.portfolio-page {
 .portfolio-card-links {
   display: flex;
   gap: 16px;
-  margin-top: auto; /* Push links to bottom in flex column */
-  padding-top: 16px;
 }
 
 .portfolio-card-links a,
@@ -249,29 +227,14 @@ body.portfolio-page {
   font-weight: 500;
 }
 
-@media (max-width: 1024px) {
-  .portfolio-card.variant-featured,
-  .portfolio-card.variant-supporting {
-    grid-column: span 6;
-  }
-}
-
-@media (max-width: 768px) {
-  .portfolio-container {
-    padding: 0 24px;
-  }
-  .portfolio-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-  }
-  .portfolio-title {
-    font-size: 48px;
-  }
+@media (max-width: 600px) {
   .portfolio-header {
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
+  }
+  .portfolio-title {
+    font-size: 2.5rem;
   }
   .portfolio-card {
     padding: 24px;

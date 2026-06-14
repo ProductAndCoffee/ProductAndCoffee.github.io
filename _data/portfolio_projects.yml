@@ -34,8 +34,9 @@
   capability: AI Workflow
   category: AI productivity/browser workflow product
   one_liner: Firefox extension with article extraction, AI summaries, BYOK provider support, Markdown export, and auto-bookmarking.
-  visibility: partial
+  visibility: public
   include_on_portfolio: true
+  repository_url: https://github.com/ProductAndCoffee/Gistify
   role: Product design, browser extension execution
   timeline: 2026
   tags:

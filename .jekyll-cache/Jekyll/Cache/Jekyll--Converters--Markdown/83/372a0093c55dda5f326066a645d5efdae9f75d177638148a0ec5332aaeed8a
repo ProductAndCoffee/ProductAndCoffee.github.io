@@ -1,0 +1,255 @@
+I"Ð<div class="portfolio-hero">
+  <div class="portfolio-breadcrumb">Home / Work</div>
+  <h1 class="portfolio-title">Work</h1>
+  <p class="portfolio-lede">
+    Product leader building AI-accelerated products from strategy to shipped software. I combine product strategy, design judgment, and hands-on technical execution to turn ambiguous ideas into tested, high-quality products.
+  </p>
+</div>
+
+<section>
+  <h2 class="portfolio-section-title">Featured Work</h2>
+  
+    <article class="portfolio-card variant-featured">
+  <div class="portfolio-card-header">
+    <div class="portfolio-card-category">AI Infrastructure &bull; Enterprise AI infrastructure</div>
+  </div>
+  
+  <h3 class="portfolio-card-title">AI Gateway TCO Dashboard</h3>
+  <div class="portfolio-card-oneliner">An enterprise AI gateway simulator showing how semantic caching, routing policy, rate limits, and observability reduce LLM operating cost.</div>
+  
+  <div class="portfolio-card-meta">
+    <span><strong>Role:</strong> Product strategy, system design, full-stack execution</span>
+    <span><strong>Time:</strong> 2026</span>
+    <span><strong>Stage:</strong> Portfolio simulator</span>
+  </div>
+
+  <div class="portfolio-card-tags">
+    
+      <span class="portfolio-tag">Semantic caching</span>
+    
+      <span class="portfolio-tag">Model routing</span>
+    
+      <span class="portfolio-tag">Rate limiting</span>
+    
+      <span class="portfolio-tag">TCO dashboard</span>
+    
+  </div>
+
+  
+  <div class="portfolio-card-evidence">
+    <p><strong>Product:</strong> Simulates a gateway layer for controlling LLM spend, policy, and operational risk.</p>
+    <p><strong>Design:</strong> Operator dashboard with overview metrics, live traffic, request details, and scenario controls.</p>
+    <p><strong>Technical:</strong> FastAPI gateway, FAISS vector cache, SQLite metadata, Next.js dashboard, and Docker Compose.</p>
+    <p><strong>AI:</strong> Demonstrates AI infrastructure patterns for semantic reuse, routing policy, and cost observability.</p>
+  </div>
+  
+
+  <div class="portfolio-card-links">
+    
+    
+    
+    
+    
+      <a href="https://github.com/ProductAndCoffee/ai-gateway-tco-dashboard" target="_blank">GitHub</a>
+    
+
+    
+  </div>
+</article>
+
+  
+    <article class="portfolio-card variant-featured">
+  <div class="portfolio-card-header">
+    <div class="portfolio-card-category">AI Workflow &bull; AI productivity/browser workflow product</div>
+  </div>
+  
+  <h3 class="portfolio-card-title">Gistify</h3>
+  <div class="portfolio-card-oneliner">Firefox extension with article extraction, AI summaries, BYOK provider support, Markdown export, and auto-bookmarking.</div>
+  
+  <div class="portfolio-card-meta">
+    <span><strong>Role:</strong> Product design, browser extension execution</span>
+    <span><strong>Time:</strong> 2026</span>
+    
+  </div>
+
+  <div class="portfolio-card-tags">
+    
+      <span class="portfolio-tag">Firefox extension</span>
+    
+      <span class="portfolio-tag">Local/provider workflow</span>
+    
+      <span class="portfolio-tag">Privacy-first</span>
+    
+  </div>
+
+  
+  <div class="portfolio-card-evidence">
+    <p><strong>Product:</strong> Automates the workflow of extracting, summarizing, and saving reading material.</p>
+    
+    <p><strong>Technical:</strong> Browser extension architecture, content scripts, background workers, integration with LLM APIs.</p>
+    <p><strong>AI:</strong> Demonstrates integration of AI summarization directly into the user's reading flow with privacy controls.</p>
+  </div>
+  
+
+  <div class="portfolio-card-links">
+    
+    
+    
+    
+    
+
+    
+      <span>Summary only</span>
+    
+  </div>
+</article>
+
+  
+    <article class="portfolio-card variant-featured">
+  <div class="portfolio-card-header">
+    <div class="portfolio-card-category">AI-Native Product &bull; Local-first RAG workspace</div>
+  </div>
+  
+  <h3 class="portfolio-card-title">PocketRAG 2.0</h3>
+  <div class="portfolio-card-oneliner">A local-first RAG workspace for asking grounded questions across organized PDF collections.</div>
+  
+  <div class="portfolio-card-meta">
+    <span><strong>Role:</strong> Product vision, API design, React frontend</span>
+    <span><strong>Time:</strong> 2026</span>
+    
+  </div>
+
+  <div class="portfolio-card-tags">
+    
+      <span class="portfolio-tag">Local RAG</span>
+    
+      <span class="portfolio-tag">Ollama</span>
+    
+      <span class="portfolio-tag">ChromaDB</span>
+    
+  </div>
+
+  
+  <div class="portfolio-card-evidence">
+    <p><strong>Product:</strong> Solves knowledge retrieval across personal documents with folder-aware context.</p>
+    
+    <p><strong>Technical:</strong> FastAPI, ChromaDB, React, local LLM integration.</p>
+    <p><strong>AI:</strong> Uses local LLMs (Ollama) and OpenAI as flexible providers for retrieval-augmented generation.</p>
+  </div>
+  
+
+  <div class="portfolio-card-links">
+    
+    
+    
+    
+    
+      <a href="https://github.com/ProductAndCoffee/PocketRAG-2.0" target="_blank">GitHub</a>
+    
+
+    
+  </div>
+</article>
+
+  
+</section>
+
+<section>
+  <h2 class="portfolio-section-title">Supporting Work</h2>
+  
+    <article class="portfolio-card variant-supporting">
+  <div class="portfolio-card-header">
+    <div class="portfolio-card-category">Mobile UX &amp; Growth &bull; Panchanga companion</div>
+  </div>
+  
+  <h3 class="portfolio-card-title">Vasara Moon Phase Calendar</h3>
+  <div class="portfolio-card-oneliner">A daily Panchanga companion designed around trust, speed to value, and shareable ritual moments.</div>
+  
+  <div class="portfolio-card-meta">
+    <span><strong>Role:</strong> Product leadership, Android UX, growth loops</span>
+    <span><strong>Time:</strong> 2025-2026</span>
+    
+  </div>
+
+  <div class="portfolio-card-tags">
+    
+      <span class="portfolio-tag">Android-first UX</span>
+    
+      <span class="portfolio-tag">API architecture</span>
+    
+      <span class="portfolio-tag">Growth loops</span>
+    
+  </div>
+
+  
+  <div class="portfolio-card-evidence">
+    <p><strong>Product:</strong> Translates complex domain rules into an intuitive, daily-habit mobile experience.</p>
+    
+    <p><strong>Technical:</strong> API-backed mobile architecture, automated reference validation, CI/CD pipelines.</p>
+    <p><strong>AI:</strong> Used AI to accelerate domain translation, PRD structure, and automated test scaffolding.</p>
+  </div>
+  
+
+  <div class="portfolio-card-links">
+    
+    
+    
+    
+    
+
+    
+      <span>Private repo</span>
+    
+  </div>
+</article>
+
+  
+    <article class="portfolio-card variant-supporting">
+  <div class="portfolio-card-header">
+    <div class="portfolio-card-category">Operations &amp; APIs &bull; Retail operations</div>
+  </div>
+  
+  <h3 class="portfolio-card-title">Stockout Predictor</h3>
+  <div class="portfolio-card-oneliner">Inventory prediction endpoint to forecast days-to-stockout based on sales rates and supplier lead times.</div>
+  
+  <div class="portfolio-card-meta">
+    <span><strong>Role:</strong> Technical product execution</span>
+    <span><strong>Time:</strong> 2025</span>
+    
+  </div>
+
+  <div class="portfolio-card-tags">
+    
+      <span class="portfolio-tag">FastAPI</span>
+    
+      <span class="portfolio-tag">Supabase</span>
+    
+      <span class="portfolio-tag">Operations</span>
+    
+  </div>
+
+  
+  <div class="portfolio-card-evidence">
+    <p><strong>Product:</strong> Solves a specific retail operations problem with a clean API interface.</p>
+    
+    <p><strong>Technical:</strong> FastAPI endpoint with Supabase integration, calculating 30-day sales rates.</p>
+    <p><strong>AI:</strong> Used AI to accelerate API boilerplate and database schema design.</p>
+  </div>
+  
+
+  <div class="portfolio-card-links">
+    
+    
+    
+    
+    
+      <a href="https://github.com/ProductAndCoffee/stockout-predictor" target="_blank">GitHub</a>
+    
+
+    
+  </div>
+</article>
+
+  
+</section>
+:ET
