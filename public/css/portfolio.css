@@ -74,11 +74,29 @@ body.portfolio-page {
   padding: 64px 0;
 }
 
-.portfolio-breadcrumb {
-  font-family: var(--font-mono);
-  font-size: 0.85rem;
+.portfolio-hero-subtext {
   color: var(--portfolio-text-muted);
+  font-size: 1.1rem;
+  margin-top: -8px;
   margin-bottom: 16px;
+}
+
+.portfolio-social-links {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.portfolio-social-link {
+  color: var(--portfolio-text-primary);
+  font-family: var(--font-nav);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-weight: 500;
+}
+
+.portfolio-capability-section {
+  margin-bottom: 48px;
 }
 
 .portfolio-title {
