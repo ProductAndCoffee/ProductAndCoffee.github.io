@@ -7,3 +7,8 @@ url: "https://productandcoffee.github.io"
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
+  - .bundle
+  - .jekyll-cache
+  - _site
+  - .DS_Store
