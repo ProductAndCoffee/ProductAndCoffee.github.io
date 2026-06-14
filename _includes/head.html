@@ -4,7 +4,7 @@
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   {% if page.portfolio %}
-  <link rel="stylesheet" href="{{ '/public/css/portfolio.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/public/css/portfolio.css?v=2' | relative_url }}">
   {% endif %}
   <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
 </head>
