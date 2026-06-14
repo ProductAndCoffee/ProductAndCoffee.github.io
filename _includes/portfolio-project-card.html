@@ -1,0 +1,49 @@
+<article class="portfolio-card variant-{{ include.variant | default: 'supporting' }}">
+  <div class="portfolio-card-header">
+    <div class="portfolio-card-category">{{ include.project.capability }} &bull; {{ include.project.category }}</div>
+  </div>
+  
+  <h3 class="portfolio-card-title">{{ include.project.title }}</h3>
+  <div class="portfolio-card-oneliner">{{ include.project.one_liner }}</div>
+  
+  <div class="portfolio-card-meta">
+    {% if include.project.role %}<span><strong>Role:</strong> {{ include.project.role }}</span>{% endif %}
+    {% if include.project.timeline %}<span><strong>Time:</strong> {{ include.project.timeline }}</span>{% endif %}
+    {% if include.project.stage %}<span><strong>Stage:</strong> {{ include.project.stage }}</span>{% endif %}
+  </div>
+
+  <div class="portfolio-card-tags">
+    {% for tag in include.project.tags %}
+      <span class="portfolio-tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+
+  {% if include.project.evidence %}
+  <div class="portfolio-card-evidence">
+    {% if include.project.evidence.product %}<p><strong>Product:</strong> {{ include.project.evidence.product }}</p>{% endif %}
+    {% if include.project.evidence.design %}<p><strong>Design:</strong> {{ include.project.evidence.design }}</p>{% endif %}
+    {% if include.project.evidence.technical %}<p><strong>Technical:</strong> {{ include.project.evidence.technical }}</p>{% endif %}
+    {% if include.project.evidence.ai %}<p><strong>AI:</strong> {{ include.project.evidence.ai }}</p>{% endif %}
+  </div>
+  {% endif %}
+
+  <div class="portfolio-card-links">
+    {% if include.project.case_study_url %}
+      <a href="{{ include.project.case_study_url }}" target="_blank">Case Study</a>
+    {% endif %}
+    
+    {% if include.project.demo_url %}
+      <a href="{{ include.project.demo_url }}" target="_blank">View Demo</a>
+    {% endif %}
+    
+    {% if include.project.repository_url and include.project.visibility == 'public' %}
+      <a href="{{ include.project.repository_url }}" target="_blank">GitHub</a>
+    {% endif %}
+
+    {% if include.project.visibility == 'private' %}
+      <span>Private repo</span>
+    {% elsif include.project.visibility == 'partial' %}
+      <span>Summary only</span>
+    {% endif %}
+  </div>
+</article>

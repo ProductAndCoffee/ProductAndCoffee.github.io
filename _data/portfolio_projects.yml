@@ -1,0 +1,110 @@
+- id: ai-gateway-tco-dashboard
+  title: AI Gateway TCO Dashboard
+  status: featured
+  rank: 10
+  capability: AI Infrastructure
+  category: Enterprise AI infrastructure
+  one_liner: An enterprise AI gateway simulator showing how semantic caching, routing policy, rate limits, and observability reduce LLM operating cost.
+  visibility: public
+  include_on_portfolio: true
+  repository_url: https://github.com/ProductAndCoffee/ai-gateway-tco-dashboard
+  role: Product strategy, system design, full-stack execution
+  timeline: 2026
+  stage: Portfolio simulator
+  tags:
+    - Semantic caching
+    - Model routing
+    - Rate limiting
+    - TCO dashboard
+  metrics:
+    - label: Cache policy
+      value: Exact + semantic
+    - label: Stack
+      value: FastAPI + Next.js
+  evidence:
+    product: Simulates a gateway layer for controlling LLM spend, policy, and operational risk.
+    design: Operator dashboard with overview metrics, live traffic, request details, and scenario controls.
+    technical: FastAPI gateway, FAISS vector cache, SQLite metadata, Next.js dashboard, and Docker Compose.
+    ai: Demonstrates AI infrastructure patterns for semantic reuse, routing policy, and cost observability.
+
+- id: Gistify
+  title: Gistify
+  status: featured
+  rank: 20
+  capability: AI Workflow
+  category: AI productivity/browser workflow product
+  one_liner: Firefox extension with article extraction, AI summaries, BYOK provider support, Markdown export, and auto-bookmarking.
+  visibility: partial
+  include_on_portfolio: true
+  role: Product design, browser extension execution
+  timeline: 2026
+  tags:
+    - Firefox extension
+    - Local/provider workflow
+    - Privacy-first
+  evidence:
+    product: Automates the workflow of extracting, summarizing, and saving reading material.
+    technical: Browser extension architecture, content scripts, background workers, integration with LLM APIs.
+    ai: Demonstrates integration of AI summarization directly into the user's reading flow with privacy controls.
+
+- id: PocketRAG-2.0
+  title: PocketRAG 2.0
+  status: featured
+  rank: 30
+  capability: AI-Native Product
+  category: Local-first RAG workspace
+  one_liner: A local-first RAG workspace for asking grounded questions across organized PDF collections.
+  visibility: public
+  include_on_portfolio: true
+  repository_url: https://github.com/ProductAndCoffee/PocketRAG-2.0
+  role: Product vision, API design, React frontend
+  timeline: 2026
+  tags:
+    - Local RAG
+    - Ollama
+    - ChromaDB
+  evidence:
+    product: Solves knowledge retrieval across personal documents with folder-aware context.
+    technical: FastAPI, ChromaDB, React, local LLM integration.
+    ai: Uses local LLMs (Ollama) and OpenAI as flexible providers for retrieval-augmented generation.
+
+- id: vasara-moon-phase-calendar
+  title: Vasara Moon Phase Calendar
+  status: supporting
+  rank: 40
+  capability: Mobile UX & Growth
+  category: Panchanga companion
+  one_liner: A daily Panchanga companion designed around trust, speed to value, and shareable ritual moments.
+  visibility: private
+  include_on_portfolio: true
+  role: Product leadership, Android UX, growth loops
+  timeline: 2025-2026
+  tags:
+    - Android-first UX
+    - API architecture
+    - Growth loops
+  evidence:
+    product: Translates complex domain rules into an intuitive, daily-habit mobile experience.
+    technical: API-backed mobile architecture, automated reference validation, CI/CD pipelines.
+    ai: Used AI to accelerate domain translation, PRD structure, and automated test scaffolding.
+
+- id: stockout-predictor
+  title: Stockout Predictor
+  status: supporting
+  rank: 50
+  capability: Operations & APIs
+  category: Retail operations
+  one_liner: Inventory prediction endpoint to forecast days-to-stockout based on sales rates and supplier lead times.
+  visibility: public
+  include_on_portfolio: true
+  repository_url: https://github.com/ProductAndCoffee/stockout-predictor
+  role: Technical product execution
+  timeline: 2025
+  tags:
+    - FastAPI
+    - Supabase
+    - Operations
+  evidence:
+    product: Solves a specific retail operations problem with a clean API interface.
+    technical: FastAPI endpoint with Supabase integration, calculating 30-day sales rates.
+    ai: Used AI to accelerate API boilerplate and database schema design.

@@ -1,0 +1,9 @@
+title: ProductAndCoffee Portfolio
+email: ""
+description: >-
+  Portfolio of Venkat Iyappan: selected product and AI systems work across strategy, execution, infrastructure, and workflow design.
+baseurl: ""
+url: "https://productandcoffee.github.io"
+exclude:
+  - Gemfile
+  - Gemfile.lock
