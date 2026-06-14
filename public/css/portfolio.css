@@ -102,6 +102,13 @@ body.portfolio-page {
 .portfolio-capability-section {
   margin-bottom: 48px;
 }
+.portfolio-breadcrumb {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--color-text-muted);
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
 
 .portfolio-title {
   font-family: var(--font-heading);

@@ -7,6 +7,7 @@ portfolio: true
 ---
 
 <div class="portfolio-hero">
+  <div class="portfolio-breadcrumb">HOME / WORK</div>
   <h1 class="portfolio-title">Venkat Iyappan</h1>
   <p class="portfolio-hero-subtext">productandcoffee.github.io</p>
   <div class="portfolio-social-links">
