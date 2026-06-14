@@ -63,7 +63,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll
+  ffi (~> 1.15.5)
+  jekyll (~> 4.2.2)
 
 BUNDLED WITH
    1.17.2

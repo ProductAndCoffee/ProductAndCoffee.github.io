@@ -46,6 +46,12 @@ body.portfolio-page {
   text-decoration: none;
 }
 
+.header-logo-img {
+  height: 144px;
+  width: auto;
+  display: block;
+}
+
 .portfolio-nav {
   display: flex;
   gap: 24px;
