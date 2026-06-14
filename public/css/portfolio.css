@@ -31,7 +31,7 @@ body.portfolio-page {
 }
 
 .portfolio-header {
-  padding: 32px 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,7 +47,7 @@ body.portfolio-page {
 }
 
 .header-logo-img {
-  height: 144px;
+  height: 72px;
   width: auto;
   display: block;
 }
