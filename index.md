@@ -20,16 +20,12 @@ portfolio: true
 </div>
 
 {% assign visible_projects = site.data.portfolio_projects | where: "include_on_portfolio", true | sort: "rank" %}
-{% assign capabilities = visible_projects | map: "capability" | compact | uniq %}
 
-{% for capability in capabilities %}
-<section class="portfolio-capability-section">
-  <h2 class="portfolio-section-title">{{ capability }}</h2>
+<section class="portfolio-projects-section">
+  <h2 class="portfolio-section-title">Selected Projects</h2>
   <div class="portfolio-grid">
-    {% assign cap_projects = visible_projects | where: "capability", capability %}
-    {% for project in cap_projects %}
+    {% for project in visible_projects %}
       {% include portfolio-project-card.html project=project variant=project.status %}
     {% endfor %}
   </div>
 </section>
-{% endfor %}

@@ -99,7 +99,7 @@ body.portfolio-page {
   font-weight: 500;
 }
 
-.portfolio-capability-section {
+.portfolio-projects-section {
   margin-bottom: 48px;
 }
 .portfolio-breadcrumb {
@@ -140,19 +140,17 @@ body.portfolio-page {
 /* Grid Layout */
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 32px;
   margin-bottom: 64px;
 }
 
 .portfolio-card.variant-featured {
-  grid-column: span 6;
   display: flex;
   flex-direction: column;
 }
 
 .portfolio-card.variant-supporting {
-  grid-column: span 6;
   display: flex;
   flex-direction: column;
 }
@@ -285,9 +283,8 @@ body.portfolio-page {
 }
 
 @media (max-width: 1024px) {
-  .portfolio-card.variant-featured,
-  .portfolio-card.variant-supporting {
-    grid-column: span 6;
+  .portfolio-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -296,8 +293,7 @@ body.portfolio-page {
     padding: 0 24px;
   }
   .portfolio-grid {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
     gap: 24px;
   }
   .portfolio-title {
