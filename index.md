@@ -11,7 +11,7 @@ portfolio: true
   <h1 class="portfolio-title">Venkat Iyappan</h1>
   <p class="portfolio-hero-subtext">productandcoffee.github.io</p>
   <div class="portfolio-social-links">
-    <a href="https://linkedin.com/in/productandcoffee" target="_blank" class="portfolio-social-link">LinkedIn</a>
+    <a href="https://www.linkedin.com/in/ivenkat/" target="_blank" class="portfolio-social-link">LinkedIn</a>
     <a href="https://github.com/ProductAndCoffee" target="_blank" class="portfolio-social-link">GitHub</a>
   </div>
   <p class="portfolio-lede">
